@@ -1,0 +1,672 @@
+@font-face {
+  font-family: aachenn;
+  src: url("./pics/aachenn.ttf");
+}
+
+@font-face {
+  font-family: Aachen BT;
+  src: url("./pics/Aachen\ BT\ Bold\ font.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("./pics/Montserrat-SemiBold.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-pics {
+  background-image: url("./pics/background.png");
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.backgroundPics {
+  background-image: url("./pics/Rectangle.png");
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.backgroundColor {
+  background-color: #17171e;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main-section {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+/*===================
+      NavBar
+====================*/
+
+.topnav {
+  overflow: hidden;
+  display: block;
+  padding-left: 75px;
+}
+
+.topnavs {
+  overflow: hidden;
+  display: block;
+  padding-left: 75px;
+  position: relative;
+  left: 875px;
+  top: -15px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-top: 55px;
+  padding-right: 50px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+  overflow: hidden;
+  font-family: aachenn !important;
+  font-weight: 300;
+}
+
+.topnavs a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-right: 50px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+  overflow: hidden;
+  font-family: aachenn !important;
+  font-weight: 300;
+}
+
+#home {
+  color: hsl(34deg 100% 50%);
+  border: none;
+}
+
+/* .topnav a:hover {
+  background-color: deepskyblue;
+  color: hsl(34deg 100% 50%);
+  padding: 20px;
+  border-radius: 35px !important;
+  margin-top: 35px !important;
+  border: none !important;
+} */
+
+/* .topnavs a:hover {
+  background-color: deepskyblue;
+  color: hsl(34deg 100% 50%);
+  padding: 20px;
+  border-radius: 35px !important;
+  margin-bottom: 35px !important;
+} */
+
+.logo-pic {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: 50px;
+  left: 650px;
+}
+
+.logo {
+  height: 60px;
+  width: 75px;
+}
+
+/*===================
+     header section
+====================*/
+
+.header-section {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+.header-inner-section {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 45%;
+  padding-top: 145px;
+  padding-right: 10px;
+}
+
+.header-hinding {
+  font-family: Aachen BT !important;
+  font-weight: 400 !important;
+  font-size: 60px !important;
+  color: hsl(34deg 100% 50%);
+  padding-left: 75px;
+  padding-top: 35px;
+}
+
+.header-text {
+  font-family: "AACHEN BT" !important;
+  font-size: 21px;
+  color: hsl(240deg 3% 94%);
+  padding-left: 75px;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.header-button {
+  padding-top: 15px;
+  padding-left: 75px;
+  border: none;
+}
+
+.header-inner-button {
+  background-color: hsl(34deg 100% 50%);
+  font-family: aachenn !important;
+  font-size: larger;
+  padding: 15px 25px;
+  color: hsl(300deg 3% 15%);
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.header-inner-button:hover {
+  background-color: aqua;
+}
+
+/*===================
+    about section
+====================*/
+
+.about-section {
+  overflow: hidden;
+  display: block;
+  padding: 70px;
+  padding-top: 90px;
+}
+
+.about-inner-section {
+  overflow: hidden;
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.about-img {
+  height: 495px;
+  width: 645px;
+}
+
+.about-hinding {
+  font-family: Aachen BT !important;
+  font-weight: 500;
+  font-size: 34px;
+  color: azure;
+  padding-top: 85px;
+  padding-left: 35px;
+}
+
+.about-text {
+  font-family: aachenn !important;
+  font-weight: 400;
+  font-size: 25px;
+  color: azure;
+  padding-right: 45px;
+  padding-left: 35px;
+  margin-top: -10px;
+}
+
+/*===================
+   quanlity section
+====================*/
+
+#backgroundColorQuality {
+  height: 1995px !important;
+}
+
+.quality-section {
+  display: block;
+  padding-top: 80px;
+}
+
+.quality-inner-section {
+  display: block;
+  width: 100%;
+}
+
+.quality-shape {
+  width: 100%;
+  height: 100%;
+  background-image: url("./pics/Shape.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: contain;
+}
+
+.quality-plate3 {
+  float: right;
+  height: 650px;
+  width: 435px;
+  position: relative;
+  top: 125px;
+  left: 140px;
+}
+
+.quality-plate2 {
+  display: block;
+  position: relative;
+  height: 600px;
+  width: 510px;
+  top: 1145px;
+  right: 135px;
+}
+
+.quality-plate4 {
+  position: relative;
+  float: right;
+  height: 1055px;
+  width: 880px;
+  left: 586px;
+  top: 175px;
+}
+
+.quality-hinding{
+  font-family: aachenn !important;
+  font-weight: 500;
+  color: azure !important;
+  position: relative;
+  left: 90px;
+  bottom: 250px;
+  overflow: hidden;
+  display: block;
+}
+
+.quality-text {
+  font-family: aachenn !important;
+  font-weight: 500;
+  font-size: medium;
+  color: azure !important;
+  position: relative;
+  width: 100%;
+  left: 90px;
+  bottom: 1160px;
+  overflow: hidden;
+    display: block;
+}
+
+/*===================
+    gallery section
+====================*/
+
+.gallery-section {
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  padding-bottom: 130px;
+}
+
+.gallery-hinding {
+  display: block;
+  overflow: hidden;
+}
+
+.gallery-inner-hinding {
+  font-family: Aachen BT !important;
+  color: azure !important;
+  text-align: center;
+}
+
+.gallery-img {
+  padding-left: 12px;
+}
+
+.gallery-img1 {
+  width: 33.3%;
+  float: left;
+  padding-top: 65px;
+}
+
+.gallery-inner-img1 {
+  width: 430px;
+  height: 450px;
+}
+
+.gallery-img2 {
+  width: 33.3%;
+  float: left;
+  padding-top: 65px;
+}
+
+.gallery-inner-img2 {
+  width: 430px;
+  height: 450px;
+}
+
+.gallery-img3 {
+  width: 33.3%;
+  float: left;
+  padding-top: 65px;
+}
+
+.gallery-inner-img3 {
+  width: 430px;
+  height: 450px;
+}
+
+.gallery-img4 {
+  width: 33.3%;
+  float: left;
+  padding-top: 20px;
+}
+
+.gallery-inner-img4 {
+  width: 430px;
+  height: 450px;
+}
+
+.gallery-img5 {
+  width: 33.3%;
+  float: left;
+  padding-top: 20px;
+}
+
+.gallery-inner-img5 {
+  width: 430px;
+  height: 450px;
+}
+
+.gallery-img6 {
+  width: 33.3%;
+  float: left;
+  padding-top: 20px;
+}
+
+.gallery-inner-img6 {
+  width: 430px;
+  height: 450px;
+}
+
+/*===================
+    enjoy section
+====================*/
+.backgroundEnjoy {
+  background-image: url("./pics/backgroundEnjoy.png");
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.enjoy-section {
+  display: block;
+  overflow: hidden;
+  padding-left: 305px;
+  padding-top: 210px;
+  padding-bottom: 139px;
+}
+
+.card {
+  width: 755px;
+  height: 595px;
+  display: inline-block;
+  border-style: solid;
+  margin-left: 12px;
+  border-width: 9px;
+  border-color: #fe9000;
+  background-color: black;
+}
+
+.card-hinding {
+  font-family: Aachen BT !important;
+  font-size: 35px;
+  color: azure !important;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.card-text {
+  font-family: Aachen BT !important;
+  font-weight: 300;
+  font-size: 20px;
+  color: azure !important;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/*===================
+   menu section
+====================*/
+.menu-section {
+  display: block;
+  overflow: hidden;
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+
+.menu-hinding {
+  display: block;
+  overflow: hidden;
+}
+
+.menu-inner-hinding {
+  font-family: aachenn !important;
+  font-weight: 500;
+  font-size: xx-large;
+  color: azure !important;
+  text-align: center;
+}
+
+.menu-img {
+  padding-left: 20px;
+}
+
+.menu-img1 {
+  width: 33.3%;
+  float: left;
+  padding-top: 50px;
+}
+
+.menu-inner-img1 {
+  width: 425px;
+  height: 350px;
+}
+
+.menu-img2 {
+  width: 33.3%;
+  float: left;
+  padding-top: 50px;
+}
+
+.menu-inner-img2 {
+  width: 425px;
+  height: 350px;
+}
+
+.menu-img3 {
+  width: 33.3%;
+  float: left;
+  padding-top: 50px;
+}
+
+.menu-inner-img3 {
+  width: 425px;
+  height: 350px;
+}
+
+.menu-inner-define {
+  font-family: aachenn !important;
+  font-weight: 500;
+  color: hsl(34deg 100% 50%) !important;
+  text-align: left;
+}
+
+.menu-inner-description {
+  font-family: aachenn !important;
+  font-weight: 500;
+  font-size: 18px;
+  color: aliceblue !important;
+  text-align: left;
+}
+
+/*===================
+   meal section
+====================*/
+
+.background-Meal {
+  background-image: url("./pics/mealRectangle.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.meal-img {
+  display: block;
+  width: 45%;
+}
+
+.meal-inner-img {
+  display: block;
+  position: relative;
+  bottom: 65px;
+  height: 645px;
+  width: 655px;
+}
+
+.meal-hinding {
+  width: 45%;
+  padding-top: 45px;
+  display: block;
+}
+
+.meal-inner-hinding {
+  font-family: Aachen BT !important;
+  font-weight: 400 !important;
+  font-size: 35px;
+  color: white !important;
+  text-align: left;
+  position: relative;
+  bottom: 565px;
+  left: 655px;
+}
+
+.meal-inner-text {
+  font-family: aachenn !important;
+  font-weight: 500;
+  font-size: 25px;
+  color: white !important;
+  text-align: left;
+  position: relative;
+  bottom: 570px;
+  left: 655px;
+}
+
+/*===================
+   footer section
+====================*/
+
+#footer-add-color {
+  background-color: #323239 !important;
+}
+
+.footer-section {
+  display: block;
+  overflow: hidden;
+}
+
+.footer-img {
+  display: block;
+}
+
+.footer-inner-img {
+  padding-left: 530px;
+  padding-top: 85px;
+  height: 60px;
+  width: 290px;
+}
+
+.footerNav {
+  overflow: hidden;
+  display: block;
+  padding-left: 335px;
+}
+
+.footerNav a {
+  font-family: Montserrat-SemiBold !important;
+  float: left;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  font-weight: 500;
+}
+
+.footer-icons {
+  padding-top: 45px;
+  padding-left: 575px;
+  padding-bottom: 105px;
+  display: block;
+  overflow: hidden;
+}
+
+#A {
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: larger;
+  padding-top: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 9px;
+  margin-right: 15px;
+}
+
+#B {
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: larger;
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  margin-right: 15px;
+}
+
+#C {
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: larger;
+  padding-top: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 9px;
+}

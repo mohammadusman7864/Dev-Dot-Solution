@@ -1,0 +1,682 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.backgroundPics {
+  background-image: url("./pics/Header.png");
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main-section {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  position: relative;
+}
+
+/* ===================
+   NavBar
+==================== */
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding-top: 65px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+ 
+.topnav a:hover{
+  color: aqua;
+  background-color: brown;
+  border-radius: 20px;
+  padding-top: 5px !important;
+  padding-right: 30px !important; 
+  padding-left: 20px !important;
+  padding-bottom: 5px !important;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  border: none;
+  font-size: 17px;
+  border-radius: 20px;
+  width: 175px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.topnav-right {
+  float: right;
+  margin-top: 56px;
+  font-family: "OpenSans";
+  padding-right: 230px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+.input-form {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: block;
+  overflow: hidden;
+}
+
+#B {
+  position: absolute;
+  background: white;
+  border: none;
+  right: 10px;
+  top: 13px;
+  transition: 0.5s;
+}
+
+#B:hover{
+  color: rgb(57, 30, 210);
+}
+
+@media screen and (max-width: 600px) {
+  .input-form {
+    position: absolute;
+    top: 50px;
+    right: 175px;
+    display: block;
+    overflow: hidden;
+  }
+  #B {
+    position: absolute;
+    background: white;
+    border: none;
+    right: 6px;
+    top: 15px;
+  }
+}
+
+/* ===================
+      logo
+==================== */
+
+.logo-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#logo {
+  height: 70px;
+  position: relative;
+  top: 190px;
+  left: 20px;
+  overflow: hidden;
+  display: block;
+}
+
+#Title {
+  position: relative;
+  padding-top: 215px;
+  left: -57px;
+}
+
+.food-image {
+  overflow: hidden;
+  display: block;
+}
+
+#food2 {
+  float: right;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 303px;
+  right: 35px;
+}
+
+#food3 {
+  float: right;
+  position: absolute;
+  top: 730px;
+  right: 550px;
+  height: 240px;
+  width: 240px;
+}
+
+.Leaves {
+  float: right;
+  position: relative;
+  overflow: hidden;
+  padding-top: 230px;
+}
+
+#hinding1 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: "OpenSans";
+  text-transform: uppercase;
+  color: aliceblue;
+  position: absolute;
+  top: 540px;
+  left: 20px;
+}
+
+.header-btn {
+  position: absolute;
+  top: 620px;
+  left: 20px;
+}
+
+.readMore {
+  float: left;
+  border: none;
+  font-weight: bolder;
+  font-family: "OpenSans";
+  font-size: larger;
+  border-radius: 17px;
+  width: 170px;
+  height: 35px;
+  transition: 0.5s;
+}
+
+.readMore:hover {
+  background-color: hsl(20deg 96% 27%);
+}
+
+.readDescription {
+  float: left;
+  margin-left: 20px;
+  font-family: "OpenSans";
+  color: aliceblue;
+  font-style: italic;
+  position: absolute;
+  top: 665px;
+}
+
+/*===================
+       Second Section
+====================*/
+.Second-section {
+  display: block;
+  overflow: hidden;
+}
+
+.SecondHinding {
+  text-align: center;
+  font-family: "Freestyle Script";
+  font-weight: lighter;
+  font-size: 110px;
+}
+
+.SecondDescription {
+  text-align: center;
+  padding-top: 45px;
+  font-family: "OpenSans" !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.SecondPlate {
+  padding-top: 45px;
+  height: 50%;
+  width: 75%;
+  margin-left: 50px;
+}
+
+.SecondTitle {
+  text-align: left;
+  font-family: "OpenSans" !important;
+  font-weight: 800 !important;
+  padding-left: 115px;
+}
+
+.SubTitle {
+  padding-top: 15px;
+  padding-left: 117px;
+  text-align: left;
+  font-family: "OpenSans" !important;
+  font-size: large;
+  font-weight: 500;
+}
+
+.btn {
+  padding-right: 10px;
+}
+
+.SecondButton {
+  height: 50px;
+  width: 210px;
+  border-radius: 42px;
+  background-color: black;
+  color: aliceblue;
+  font-family: "OpenSans" !important;
+  font-size: 17px;
+  font-weight: bolder;
+  transition: 0.6s;
+}
+.SecondButton:hover {
+  background-color: chocolate;
+}
+
+/*===================
+     Third Section
+====================*/
+
+.third-section {
+  overflow: hidden;
+  display: block;
+}
+
+.ThirdHinding {
+  color: #fff8f0;
+  text-align: center;
+  padding-top: 24px;
+  font-family: "Freestyle Script";
+  font-size: 110px;
+  font-weight: lighter;
+}
+
+.ThirdPara {
+  color: white;
+  padding-left: 120px;
+  background-color: black;
+  padding-right: 50px;
+}
+
+.info-section-wrapper {
+  background-color: black;
+  display: block;
+  overflow: hidden;
+  width: 95%;
+}
+
+.info-section-wrapper .info-inner-section-wrapper {
+  display: block;
+  overflow: hidden;
+  width: 50%;
+  float: left;
+}
+
+.info-button {
+  padding-top: 170px;
+  padding-bottom: 40px;
+  padding-left: 560px;
+}
+
+.info-button .info-inner-button {
+  height: 40px;
+  width: 180px;
+  border-radius: 16px;
+  transition: 0.6s;
+}
+
+.info-button .info-inner-button:hover {
+  background-color: chocolate;
+}
+
+/*===================
+     Fourth Section
+====================*/
+
+.menu-section {
+  float: left;
+  width: 50%;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+.menu-section .menu-image-section {
+  height: 600px;
+  width: 600px;
+}
+
+.menu-text-section {
+  float: left;
+  width: 40%;
+  padding-top: 190px;
+  padding-left: 50px;
+}
+
+.menu-hinding-section {
+  font-weight: 800;
+  font-family: Arial !important;
+  padding-left: 22px;
+}
+
+.menu-decription-section {
+  padding-top: 30px;
+  font-weight: 500;
+  font-family: Arial;
+  padding-left: 22px;
+}
+
+.menu-button-section {
+  padding-top: 60px;
+  margin-left: 5px;
+  padding-left: 22px;
+}
+
+.menu-inner-button {
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: black;
+  color: azure;
+  font-family: cursive;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.menu-inner-button:hover {
+  background-color: lightcoral;
+}
+
+.menu2-section {
+  display: block;
+  overflow: hidden;
+  width: 95%;
+}
+
+.menu2-inner-section {
+  float: left;
+  width: 50%;
+  padding-top: 115px;
+  display: block;
+  padding-right: 40px;
+}
+
+.menu3-inner-section {
+  float: left;
+  width: 45%;
+  display: block;
+}
+
+.menu2-section .menu2-inner-section .menu-hinding2-section {
+  font-weight: 800;
+  font-family: sans-serif;
+  padding-left: 224px;
+}
+
+.menu-decription2-section {
+  padding-top: 30px;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding-left: 220px;
+}
+
+.menu-image2-section {
+  height: 600px;
+  width: 600px;
+  padding-bottom: 25px;
+}
+
+.menu-button2-section {
+  padding-top: 50px;
+  margin-left: 225px;
+}
+
+/*===================
+     Fifth Section
+====================*/
+
+.background-Pics {
+  background-image: url(./pics/Header.png);
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 950px;
+}
+
+.pizza-section {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.pizza-leaves2-section {
+  width: 100%;
+  position: relative;
+}
+
+.pizza-image2-section {
+  position: absolute;
+  top: -400px;
+  right: 0px;
+}
+
+.pizza-handing-section {
+  font-family: "Freestyle Script";
+  font-weight: lighter;
+  font-size: 110px;
+  color: aliceblue;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.pizza-text-section {
+  text-align: center;
+  font-family: "fangsong";
+  font-size: large;
+  font-weight: 500 !important;
+  color: aliceblue;
+}
+
+.pizza-image-section {
+  padding-top: 45px;
+}
+
+.pizza-site-section {
+  position: absolute;
+  top: 1800px;
+  left: 600px;
+  width: 60%;
+}
+
+.pizza-image3-section {
+  position: absolute;
+  top: -1330px;
+  left: -173px;
+  width: 80%;
+}
+
+.pizza-image4-section {
+  position: absolute;
+  top: -983px;
+  left: -320px;
+  width: 45%;
+}
+
+/*===================
+     Sixth Section
+====================*/
+
+.detail-section {
+  width: 100%;
+  display: block;
+}
+
+.detail-inner-section {
+  width: 33.3%;
+  float: left;
+  display: block;
+}
+
+.detail-hinding-section {
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Freestyle Script";
+  font-style: italic;
+  font-size: 85px;
+  font-weight: lighter;
+  padding-left: 40px;
+}
+
+.detail-para-section {
+  color: black;
+  padding-left: 120px;
+  padding-right: 85px;
+}
+
+.detail-para2-section {
+  padding-top: 535px !important;
+  text-align: center;
+  font-family: "emoji";
+  font-size: larger;
+}
+
+.detail-hinding2-section {
+  padding-top: 65px !important;
+  text-align: center;
+  font-family: "emoji";
+  font-size: larger;
+  padding-bottom: 150px;
+}
+
+/*===================
+     Seventh Section
+====================*/
+.form-section {
+  width: 100%;
+  display: block;
+  background-color: black;
+  max-height: 815px;
+}
+
+.form-inner-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  right: 32px;
+}
+
+.form-image-section {
+  left: 0px;
+  top: -50px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.form-mainHinding-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  top: -550px;
+  text-align: center !important;
+}
+
+.form-hinding-section {
+  top: -290px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 70px;
+  position: relative;
+}
+
+.form-text-section {
+  text-align: center;
+  font-family: inherit;
+  font-size: large;
+  font-weight: normal;
+  position: relative;
+  color: white;
+  top: -235px;
+}
+
+.input-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  top: -222px;
+}
+
+.input-inner-section {
+  position: absolute;
+  height: 40px;
+  border-radius: 30px;
+  left: 375px;
+  top: -514px;
+  padding-left: 15px;
+}
+
+.form-button-section {
+  color: white;
+  background-color: #55514e;
+  border-radius: 30px;
+  position: absolute;
+  top: -515px;
+  height: 45px;
+  width: 165px;
+  left: 750px;
+  font-family: sans-serif;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.form-button-section:hover{
+  background-color: burlywood;
+  color: crimson;
+}
+
+/*===================
+     Eighth Section
+====================*/
+.footer-section {
+  width: 100%;
+  display: block;
+  padding-top: 275px;
+  padding-left: 80px;
+  float: left;
+  padding-bottom: 340px;
+}
+
+.footer-inners-section {
+  float: left;
+  display: block;
+  width: 40%;
+}
+
+.footer-hinding-section {
+  font-family: monospace;
+  font-weight: 100 !important;
+  font-size: 30px;
+}
+
+.footer-text-section {
+  font-family: system-ui;
+  padding-top: 30px;
+}
+
+.footer-inner-section {
+  float: left;
+  display: block;
+  width: 20%;
+}
+
+.footer-texts-section {
+  font-family: system-ui;
+  padding-top: 8px;
+}
+
+#A {
+  padding-top: 30px;
+}
