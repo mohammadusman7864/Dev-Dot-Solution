@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html>
   <style>
-    li {
+    ul {
       background-color: blue;
     }
   </style>
   <body>
     <h1>The ul element</h1>
-
-    <ul>
-      <li>Coffee</li>
+    
+    <ul id="s">
+        <li>Coffee</li>
       <li>Tea</li>
       <li>Milk</li>
     </ul>
+
+
 Enter Your Color:
 <input type="text" placeholder="Enter Your Color" id="A" />
 <button onclick="colorChange()">Color Change</button>
+Enter Your list:
+<input type="text" placeholder="Enter Your Color" id="B" />
+<button onclick="addList()">Add</button>
 
-<script src="script.js"></script>
+<script >
+ function colorChange(){
+  var col= (document.getElementById('A').value)
+  var list= (document.getElementById('s').style.backgroundColor= col)
+    }
+
+    function addList(){
+  var x= (document.getElementById('B').value)
+  var y= (document.getElementById('s').value= x )
+  console.log(y);
+    }
+   
+  
+</script>
   </body>
 </html>
 
